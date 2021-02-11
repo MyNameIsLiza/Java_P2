@@ -34,7 +34,7 @@ public class Main {
         try {
             m = Integer.parseInt(t);
             if(m < 1885 || m > 2021){
-                System.out.println("Невдача, перший автомобіль був побудований в 1885, а останній в 2021");
+                System.out.println("Невдача, перший автомобіль був побудований в 1885, а останній в 2021!");
                 m = input_int(reader);
             }
         }catch (NumberFormatException e) {
